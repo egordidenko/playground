@@ -1,0 +1,23 @@
+{
+    "name": "playground",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "live-server --no-browser --entry-file=dist/ --watch=dist/",
+        "prod": "rollup src/scripts/app.js --file dist/build/app.js --format iife && uglifyjs dist/build/app.js --output dist/build/app.js -c -m & css-combine src/styles/app.css > dist/build/styles.css && uglifycss dist/build/styles.css --output dist/build/styles.css"
+    },
+    "keywords": [],
+    "author": "Didenko Egor",
+    "license": "ISC",
+    "devDependencies": {
+        "css-combine": "^1.0.0",
+        "rollup": "^1.16.7",
+        "uglify-es": "^3.3.9",
+        "uglify-js": "^3.6.0",
+        "uglifycss": "^0.0.29",
+        "live-server": "^1.2.1"
+    },
+    "dependencies": {
+
+    }
+}
