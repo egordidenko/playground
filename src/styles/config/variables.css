@@ -1,4 +1,12 @@
-
+:root {
+    --color-primary: #10305F;
+    --color-accent: #E46450;
+    --color-white: #fff;
+    
+    
+    --bg-primary: #FAFAFA;
+    --bg-accent: #fff;
+}
 
 /* // easings
 

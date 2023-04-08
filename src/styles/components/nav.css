@@ -1,0 +1,41 @@
+.nav {
+
+}
+
+.nav__link {
+    /* color: var(--color-primary); */
+    color: #10305F;
+    margin-right: 40px;
+
+    transition: color .3s ease;
+}
+
+
+.nav__link:last-of-type {
+    margin-right: 0;
+}
+
+.nav__link:hover {
+    color: var(--color-accent);
+}
+
+
+
+.nav__button {
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    padding: 20px 50px;
+    font-size: 16px;
+    margin-left: 50px;
+    cursor: pointer;
+
+    transition: background-color .3s ease;
+}
+
+.nav__button:hover {
+    background-color: var(--color-primary);
+}
+
+.nav__button_round {
+    border-radius: 10px;
+}
