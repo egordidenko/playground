@@ -4,3 +4,15 @@
     width: calc(100% - 270px);
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+    width: calc(100% - 40px);
+    }
+}

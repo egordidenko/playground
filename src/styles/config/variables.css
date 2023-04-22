@@ -6,6 +6,10 @@
     
     --bg-primary: #FAFAFA;
     --bg-accent: #fff;
+
+    --bp-mobile: 640;
+    --bp-tablet: 1024;
+    --bp-laptop: 1440;
 }
 
 /* // easings

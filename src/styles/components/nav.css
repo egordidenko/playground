@@ -2,6 +2,15 @@
 
 }
 
+.nav_active {
+    display: flex;
+    background-color: var(--bg-primary);
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    flex-direction: column;
+}
+
 .nav__link {
     /* color: var(--color-primary); */
     color: #10305F;
@@ -38,4 +47,24 @@
 
 .nav__button_round {
     border-radius: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+
+    .nav_active {
+        padding: 20px;
+        display: flex;
+    }
+
+    .nav__link {
+        margin-bottom: 24px;
+    }
+
+    .nav__button {
+        margin-left: 0;
+    }
 }

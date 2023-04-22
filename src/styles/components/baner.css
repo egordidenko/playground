@@ -1,0 +1,87 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__image {
+    position: absolute;
+    inset: 0;
+}
+
+.banner__image img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.banner__body {
+    position: relative;
+    padding: 10% 20% 15% 10%;
+}
+
+
+
+@media (max-width: 640px) {
+    .banner__body {
+        padding: 32px 20px;
+    }
+}
+
+
+.banner__title {
+    position: relative;
+    margin-bottom: 24px;
+    z-index: 1;
+    color: var(--color-white);
+}
+
+.banner__text {
+    position: relative;
+    z-index: 1;
+    color: var(--color-white);
+}
+
+
+.arrow {
+    cursor: pointer;
+    width: 170px;
+    height: 170px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow_round {
+    border-radius: 50%;
+}
+
+.arrow__icon {
+    display: block;
+    position: relative;
+    width: 57px;
+    height: 1px;
+    background-color: #000;
+}
+
+.arrow__icon::before,
+.arrow__icon::after {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 1px;
+    background-color: #000;
+    right: 0;
+}
+
+.arrow__icon::before {
+    transform: rotate(45deg);
+    transform-origin: top;
+    right: -2px;
+    top: -1px;
+}
+.arrow__icon::after {
+    transform: rotate(-45deg);
+    transform-origin: bottom;
+    right: -2px;
+    top: 1px;
+}

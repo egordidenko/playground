@@ -39,7 +39,7 @@
   
   h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    /* margin: 0.67em 0; */
   }
   
   /* Grouping content
@@ -348,4 +348,9 @@
   
   [hidden] {
     display: none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
   }

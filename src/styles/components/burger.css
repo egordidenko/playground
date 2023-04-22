@@ -1,0 +1,7 @@
+.burger {
+
+}
+
+.burger svg {
+    fill: var(--color-primary);
+}

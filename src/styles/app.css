@@ -1,12 +1,19 @@
 @import url('./config/reset.css');
+@import url('./config/fonts.css');
 @import url('./config/variables.css');
+@import url('./config/typography.css');
+@import url('./utils/indents.css');
 @import url('./components/layout.css');
 @import url('./components/header.css');
 @import url('./components/nav.css');
+@import url('./components/burger.css');
+@import url('./components/baner.css');
+@import url('./components/products.css');
 
 body {
 	display: flex;
 	background-color: var(--bg-primary);
+	font-family: 'Inter', sans-serif;
 }
 
 * {
