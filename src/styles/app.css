@@ -7,8 +7,14 @@
 @import url('./components/header.css');
 @import url('./components/nav.css');
 @import url('./components/burger.css');
+@import url('./components/button.css');
 @import url('./components/baner.css');
 @import url('./components/products.css');
+@import url('./components/blockquote.css');
+
+@import url('./components/footer.css');
+@import url('./components/form.css');
+@import url('./components/contacts.css');
 
 body {
 	display: flex;

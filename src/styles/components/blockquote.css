@@ -1,0 +1,16 @@
+.blockquote {
+
+}
+
+.blockquote__body {
+    padding: 92px 100px;
+
+    background-image: url('../../images/blockquote/aleksandar-kyng-dhkdfFxGHfU-unsplash.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.blockquote__title {
+    color: var(--color-white);
+    max-width: 570px;
+}

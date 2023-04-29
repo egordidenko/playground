@@ -1,0 +1,19 @@
+.footer {
+    padding: 65px 0 50px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__formContainer {
+    width: 40%;
+}
+
+.footer__contacts {
+    width: 40%;
+    padding-top: 20px;
+}

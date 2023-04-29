@@ -1,0 +1,24 @@
+.contacts {
+
+}
+
+.contacts__title {
+    margin-bottom: 52px;
+}
+
+.contact__link {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+
+    transition: color .3s ease;
+    margin-bottom: 40px;
+}
+
+.contact__link:hover {
+    color: var(--color-accent);
+}
+
+.contact__icon {
+    margin-right: 20px;
+}
