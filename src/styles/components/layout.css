@@ -1,18 +1,31 @@
 
 .wrapper {
-    /* 1440 = 100% */
     width: calc(100% - 270px);
     margin: 0 auto;
 }
 
+.wrapper.narrow {
+    width: calc(100% - 670px);
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
     .wrapper {
         width: 90vw;
     }
+
+    .wrapper.narrow {
+        width: 80vw;
+    }
 }
 
+/* Mobile */
 @media (max-width: 640px) {
     .wrapper {
-    width: calc(100% - 40px);
+        width: calc(100% - 40px);
+    }
+
+    .wrapper.narrow {
+        width: calc(100% - 60px);
     }
 }

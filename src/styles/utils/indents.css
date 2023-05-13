@@ -31,3 +31,32 @@
 .py {
     
 }
+
+@media (max-width: 1024px) {
+    .mb_100 {
+        margin-bottom: 72px;
+    }
+    
+    .mb_120 {
+        margin-bottom: 80px;
+    }
+
+    .my_100 {
+        margin: 72px 0;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .mb_100 {
+        margin-bottom: 48px;
+    }
+    
+    .mb_120 {
+        margin-bottom: 56px;
+    }
+
+    .my_100 {
+        margin: 48px 0;
+    }
+}

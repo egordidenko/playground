@@ -7,6 +7,7 @@
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__formContainer {
@@ -16,4 +17,15 @@
 .footer__contacts {
     width: 40%;
     padding-top: 20px;
+}
+
+@media (max-width: 1024px) {
+    .footer__formContainer {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .footer__contacts {
+        width: 100%;
+    }
 }

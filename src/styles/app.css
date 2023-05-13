@@ -11,6 +11,9 @@
 @import url('./components/baner.css');
 @import url('./components/products.css');
 @import url('./components/blockquote.css');
+@import url('./components/slider.css');
+
+@import url('./components/faq.css');
 
 @import url('./components/footer.css');
 @import url('./components/form.css');
