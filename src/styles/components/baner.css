@@ -32,12 +32,14 @@
     margin-bottom: 24px;
     z-index: 1;
     color: var(--color-white);
+    max-width: 670px;
 }
 
 .banner__text {
     position: relative;
     z-index: 1;
     color: var(--color-white);
+    max-width: 670px;
 }
 
 

@@ -1,5 +1,8 @@
 .header {
     background-color: var(--bg-accent);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
 }
 
 .header__wrapper {

@@ -1,0 +1,39 @@
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits__desc {
+    width: calc(40% - 70px);
+}
+
+.benefits__maps {
+    width: calc(60% - 70px);
+    margin-right: -135px;
+}
+
+.benefits__title {
+    color: var(--color-primary);
+}
+
+.benefits__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px 30px;
+}
+
+.benefit {
+
+}
+
+
+
+.benefit__title b {
+    font-size: 48px;
+    color: var(--color-accent);
+}
+
+.benefit__subtitle b {
+    color: var(--color-accent);
+}

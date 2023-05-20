@@ -13,7 +13,9 @@
 @import url('./components/blockquote.css');
 @import url('./components/slider.css');
 
+@import url('./components//benefits.css');
 @import url('./components/faq.css');
+@import url('./components/projects.css');
 
 @import url('./components/footer.css');
 @import url('./components/form.css');
